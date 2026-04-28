@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NexusPlay | Leaderboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="navbar">
+    <div class="logo">NEXUS<span>PLAY</span></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="games.html">Games</a></li>
+      <li><a href="leaderboard.html" class="active">Leaderboard</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <a href="games.html" class="btn-primary">Play Now</a>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="glow-orb orb1"></div>
+    <p class="section-tag">&#9670; RANKINGS</p>
+    <h1>GLOBAL <span>LEADERBOARD</span></h1>
+    <p>The world's finest players. Updated every 24 hours.</p>
+  </section>
+
+  <!-- PODIUM -->
+  <section class="section podium-section">
+    <div class="podium">
+      <div class="podium-card rank2">
+        <div class="podium-avatar">SX</div>
+        <div class="podium-rank">🥈 #2</div>
+        <h3>ShadowX</h3>
+        <p class="podium-pts">98,230 pts</p>
+        <p class="podium-country">🇯🇵 Japan</p>
+      </div>
+      <div class="podium-card rank1">
+        <div class="podium-crown">👑</div>
+        <div class="podium-avatar gold">KR</div>
+        <div class="podium-rank">🥇 #1</div>
+        <h3>KillerRaven</h3>
+        <p class="podium-pts">102,450 pts</p>
+        <p class="podium-country">🇺🇸 USA</p>
+      </div>
+      <div class="podium-card rank3">
+        <div class="podium-avatar bronze">NX</div>
+        <div class="podium-rank">🥉 #3</div>
+        <h3>NeonX</h3>
+        <p class="podium-pts">91,780 pts</p>
+        <p class="podium-country">🇩🇪 Germany</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FULL TABLE -->
+  <section class="section table-section">
+    <div class="lb-header">
+      <h2>TOP <span>50 PLAYERS</span></h2>
+      <div class="lb-tabs">
+        <button class="lb-tab active">Global</button>
+        <button class="lb-tab">Regional</button>
+        <button class="lb-tab">Weekly</button>
+      </div>
+    </div>
+
+    <div class="lb-table-wrap">
+      <table class="lb-table">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Country</th>
+            <th>Game</th>
+            <th>Wins</th>
+            <th>Points</th>
+            <th>Change</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="top-row gold-row">
+            <td><span class="rank-badge gold">1</span></td>
+            <td><span class="player-avatar">KR</span> KillerRaven</td>
+            <td>🇺🇸 USA</td>
+            <td>Apex Shadow</td>
+            <td>847</td>
+            <td><strong>102,450</strong></td>
+            <td class="up">▲ 2</td>
+          </tr>
+          <tr class="top-row silver-row">
+            <td><span class="rank-badge silver">2</span></td>
+            <td><span class="player-avatar">SX</span> ShadowX</td>
+            <td>🇯🇵 Japan</td>
+            <td>Cyber Odyssey</td>
+            <td>791</td>
+            <td><strong>98,230</strong></td>
+            <td class="down">▼ 1</td>
+          </tr>
+          <tr class="top-row bronze-row">
+            <td><span class="rank-badge bronze">3</span></td>
+            <td><span class="player-avatar">NX</span> NeonX</td>
+            <td>🇩🇪 Germany</td>
+            <td>Storm Arena</td>
+            <td>703</td>
+            <td><strong>91,780</strong></td>
+            <td class="up">▲ 5</td>
+          </tr>
+          <tr>
+            <td><span class="rank-badge">4</span></td>
+            <td><span class="player-avatar">VG</span> VoidGhost</td>
+            <td>🇰🇷 Korea</td>
+            <td>Apex Shadow</td>
+            <td>688</td>
+            <td><strong>87,110</strong></td>
+            <td class="same">— 0</td>
+          </tr>
+          <tr>
+            <td><span class="rank-badge">5</span></td>
+            <td><span class="player-avatar">BL</span> BlazeLord</td>
+            <td>🇧🇷 Brazil</td>
+            <td>Neon Drive</td>
+            <td>650</td>
+            <td><strong>83,560</strong></td>
+            <td class="up">▲ 3</td>
+          </tr>
+          <tr>
+            <td><span class="rank-badge">6</span></td>
+            <td><span class="player-avatar">CZ</span> CryptoZero</td>
+            <td>🇬🇧 UK</td>
+            <td>Cyber Odyssey</td>
+            <td>621</td>
+            <td><strong>79,900</strong></td>
+            <td class="down">▼ 2</td>
+          </tr>
+          <tr>
+            <td><span class="rank-badge">7</span></td>
+            <td><span class="player-avatar">PH</span> PhantomX</td>
+            <td>🇨🇦 Canada</td>
+            <td>Storm Arena</td>
+            <td>598</td>
+            <td><strong>75,440</strong></td>
+            <td class="up">▲ 1</td>
+          </tr>
+          <tr>
+            <td><span class="rank-badge">8</span></td>
+            <td><span class="player-avatar">SR</span> StarRaider</td>
+            <td>🇦🇺 Australia</td>
+            <td>Apex Shadow</td>
+            <td>570</td>
+            <td><strong>72,000</strong></td>
+            <td class="down">▼ 4</td>
+          </tr>
+          <tr>
+            <td><span class="rank-badge">9</span></td>
+            <td><span class="player-avatar">IR</span> IronRex</td>
+            <td>🇫🇷 France</td>
+            <td>Iron Fortress</td>
+            <td>555</td>
+            <td><strong>69,780</strong></td>
+            <td class="up">▲ 7</td>
+          </tr>
+          <tr>
+            <td><span class="rank-badge">10</span></td>
+            <td><span class="player-avatar">DK</span> DarkKnight</td>
+            <td>🇮🇳 India</td>
+            <td>Cyber Odyssey</td>
+            <td>540</td>
+            <td><strong>66,320</strong></td>
+            <td class="up">▲ 2</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="logo">NEXUS<span>PLAY</span></div>
+        <p>The ultimate competitive gaming platform.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Pages</h4>
+        <a href="index.html">Home</a>
+        <a href="games.html">Games</a>
+        <a href="leaderboard.html">Leaderboard</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2025 NexusPlay. All rights reserved. | Mini Project — HTML &amp; CSS</p>
+    </div>
+  </footer>
+
+</body>
+</html>
